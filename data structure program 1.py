@@ -9,7 +9,6 @@ str2 = ' how are you' #string str2
 str1
 str2
 print (str1[0:5]) #printing first five character using slice operator  
-(str1[0:5])
 print (str1[4]) #printing 5th character of the string  
 print (str1*2) #printing the string twice  
 print (str1 + str2) #printing the concatenation of str1 and str2
@@ -98,6 +97,10 @@ len(student)
 #Lets test Mutation: 
 #adding a value
 student['A104'] = 'Hitesh'
+student
+student['A105']= 'lawnish'
+student
+del student['A104']
 student
 
 #Set
